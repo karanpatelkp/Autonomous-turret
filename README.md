@@ -79,6 +79,6 @@ This project is open-sourced under the MIT License.
 
 ---
 
-### 👨‍💻 Developed by Karan Patel  
+### 👨‍💻 Developed by Karan Patel, Awin Pavan, Narendhara, Param Sundaram
 Feel free to ⭐ the repository or contribute!  
 GitHub: [Autonomous Turret System](https://github.com/karanpatelkp/Autonomous-Turret-system)
