@@ -31,6 +31,9 @@ def detect_and_mark_circles(frame):
     # Detecting circles using Hough Circle Transform
     circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, dp=1, minDist=50,
                                param1=100, param2=40, minRadius=20, maxRadius=100)
+#Minimum distance between the centers of detected circles.
+    #param1=100: First method-specific parameter., In this context: Higher threshold for Canny edge detector.
+#param2=40, Type: Second method-specific parameter., In this context: Accumulator threshold for circle centers at the detection stage., Meaning: Lower values allow more false circles; higher values require stronger evidence (peaks in the Hough accumulator).
 
     # Initializing default center values
     x = 0
